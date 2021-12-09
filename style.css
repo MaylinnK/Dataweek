@@ -16,10 +16,15 @@ body main {
 }
 
 body main h1 {
-    text-align: center;
-    font-size: 26px;
-    margin: 10px 0 10px;
+    font-size: 36px;
+    margin: 10px 0 0;
+    line-height: 45px;
     color: #373737;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body main h1 span {
+    font-size: 39px;
 }
 
 body main img {
@@ -29,31 +34,54 @@ body main img {
 body main section:nth-of-type(1) {
     display: flex;
     justify-content: space-between;
-    height: 30%;
+    height: 38%;
+    text-align: left;
 }
 
-body main section:nth-of-type(1) section {
-    flex-basis: 30%;
+body main section:nth-of-type(1) section:nth-of-type(1) {
+    flex-basis: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 84%;
-    margin: 17px 15px;
-    background-color: #d0baad;
-    padding: 10px;
+    align-self: end;
+    height: 60%;
+    margin: 0 15px;
+    border-radius: 20px;
+    background-color: #d4bdb0;
+    padding: 20px 30px;
+}
+
+body main section:nth-of-type(1) section:nth-of-type(2) {
+    width: 17%;
+    background-color: #a09082;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 60px 0 0;
+    height: 43%;
+    display: flex;
+    opacity: 0;
+    transition: 300ms;
+    justify-content: center;
+    align-self: self-end;
+}
+
+body main section:nth-of-type(1) section:nth-of-type(2) p {
+    margin: 0;
+    text-align: left;
+    width: 90%;
+    font-size: 17.5px;
+    color: white;
+    line-height: 24px;
 }
 
 body main section p {
     width: 80%;
     font-size: 15px;
-    margin: 10px;
-    text-align: center;
 }
 
 body main section:nth-of-type(2) {
     width: 100%;
-    height: 70%;
+    height: 60%;
 }
 
 body main section:nth-of-type(2) article {
@@ -65,7 +93,7 @@ body main section:nth-of-type(2) article {
 main article span {
     display: block;
     position: absolute;
-    bottom: 9px;
+    bottom: -2%;
     width: 80%;
     left: 10%;
 }
@@ -74,6 +102,7 @@ body main form {
     display: flex;
     flex-direction: column;
     margin: 30px 75px 0 0;
+    align-self: flex-end;
 }
 
 body form input {
@@ -88,21 +117,21 @@ body form label {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: #a09082;
     color: white;
     border-radius: 5px;
-    box-shadow: 5px 4px 4px -1px #000000;
+    box-shadow: 4px 3px 4px -1px #000000;
     transition: 200ms;
 }
 
 body form label:hover {
-    background-color: rgb(167, 167, 167);
+    background-color: #d4bdb0;
 }
 
 body form input:checked+label {
-    background-color: rgb(128, 168, 68);
-    margin: 4px -4px 16px 4px;
-    box-shadow: none;
+    background-color: #c68963;
+    margin: 3px -3px 17px 3px;
+    box-shadow: 1px 1px 4px -1px #000000;
     transition: 200ms
 }
 
@@ -114,7 +143,7 @@ body form input:checked+label {
     position: absolute;
     width: 100%;
     transform: scaleY(0.9);
-    bottom: 7%;
+    bottom: 4%;
     left: 0;
 }
 
@@ -155,9 +184,6 @@ body form input:checked+label {
 }
 
 
-/* --------------------------- */
-
-
 /* ---------------- Personen ---------------- */
 
 .char {
@@ -165,16 +191,12 @@ body form input:checked+label {
     position: absolute;
     bottom: 26.4%;
     transition: 200ms;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .hidden {
     display: none;
     transition: 200ms
-}
-
-.char:hover {
-    opacity: 1
 }
 
 .mobiel {
@@ -194,7 +216,7 @@ body form input:checked+label {
     fill: #a7c1a8
 }
 
-.werk .cls-3 {
+.werk .cls-3, .werk .cls-9 {
     fill: #b7bbbc
 }
 

@@ -1,0 +1,53 @@
+{
+    "ochtend": [
+        {
+            "mobiel": "24% van de mensen in de trein 's ochtends zitten op hun mobiel. 6 van de 10 mensen kijkt een serie op hun telefoon."
+        },
+        {
+            "rust": "28% van de mensen in de trein 's ochtends zijn aan het staren. Ongeveer de helft daarvan is muziek aan het luisteren."
+        },
+        {
+            "werk": "15% van de mensen in de trein 's ochtends zijn aan het werk op hun laptop."
+        },
+        {
+            "praat": "24% van de mensen in de trein 's ochtends zijn met elkaar aan het praten."
+        },
+        {
+            "overige": "9% van de mensen in de trein zijn wat anders aan het doen. In de ochtend zijn ze grotendeels aan het eten."
+        }
+    ],
+    "dal": [
+        {
+            "mobiel": "27% van de mensen zijn met hun telefoon bezig."
+        },
+        {
+            "rust": "33% van de mensen is aan het staren in de trein. 6 van de 10 van deze mensen luistert muziek."
+        },
+        {
+            "werk": "7% van de mensen is aan het werk op hun laptop in de trein."
+        },
+        {
+            "praat": "13% van de mensen is met elkaar aan het praten."
+        },
+        {
+            "overige": "20% van de mensen doet een overige activiteit in de trein. Ongeveer de helft hiervan is aan het eten."
+        }
+    ],
+    "avond": [
+        {
+            "mobiel": "28% van de mensen is op zijn telefoon bezig terwijl ze in de trein zitten. 3 van de tien mensen kijkt een serie."
+        },
+        {
+            "rust": "35% van de mensen is aan het staren in de trein. Ongeveer de helft van de mensen luistert muziek."
+        },
+        {
+            "werk": "3% van de mensen is aan het werk op hun laptop in de trein."
+        },
+        {
+            "praat": "9% van de mensen is met anderen aan het praten."
+        },
+        {
+            "overige": "25% van de mensen is iets anders aan het doen tijdens de trein reis. 3 op de 4 mensen is aan het eten."
+        }
+    ]
+}

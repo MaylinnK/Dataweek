@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treinreis activiteiten</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,8 +16,12 @@
     <main>
         <section>
             <section>
-                <h1>Activiteiten op de trein <br>Haarlem - Amsterdam</h1>
+                <h1>Activiteiten op de trein <br><span>Haarlem - Amsterdam</span></h1>
                 <p></p>
+            </section>
+            <section>
+                <p id="context">28% van de mensen is op hun telefoon bezig terwijl ze in de trein zitten. 3 van de tien
+                    mensen kijkt een serie.</p>
             </section>
             <form>
                 <input id="ochtend" checked type="radio" name="tijd" value="ochtend">
@@ -26,7 +33,7 @@
             </form>
         </section>
         <section>
-            <article id="article">
+            <article id="article" class="ochtend">
                 <svg class="trein" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 368.84">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
@@ -98,7 +105,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char o praat dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
+                <svg id="praat" class="char o praat dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -120,7 +127,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char p praat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
+                <svg id="praat" class="char p praat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -142,7 +149,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char q praat dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
+                <svg id="praat" class="char q praat dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -164,7 +171,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char r praat dalx avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
+                <svg id="praat" class="char r praat dalx avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 98.2 189.33">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -186,7 +194,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char s praat dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
+                <svg id="praat" class="char s praat dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -208,7 +216,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char t overige" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
+                <svg id="overige" class="char t overige" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.2 189.33">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -230,7 +238,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char a rust" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
+                <svg id="rust" class="char a rust" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -252,7 +260,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char b rust dalx avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
+                <svg id="rust" class="char b rust dalx avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 104.81 191.08">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -274,7 +283,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char c rust dalx avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
+                <svg id="rust" class="char c rust dalx avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 104.81 191.08">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -296,7 +306,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char d rust" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
+                <svg id="rust" class="char d rust" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -318,7 +328,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char e rust dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
+                <svg id="rust" class="char e rust dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.81 191.08">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -340,7 +350,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char f rust dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.17 147.76">
+                <svg id="rust" class="char f rust dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.17 147.76">
                     <defs>
                         <style>
                             .cls-1 {
@@ -384,7 +394,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char g mobiel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.14 133.5">
+                <svg id="mobiel" class="char g mobiel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.14 133.5">
                     <defs>
                         <style>
                             .cls-1 {
@@ -439,7 +449,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char h mobiel dalx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.14 133.5">
+                <svg id="mobiel" class="char h mobiel dalx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 100.14 133.5">
                     <defs>
                         <style>
                             .cls-1 {
@@ -494,7 +505,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char i mobiel dalx avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.14 133.5">
+                <svg id="mobiel" class="char i mobiel dalx avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 100.14 133.5">
                     <defs>
                         <style>
                             .cls-1 {
@@ -549,7 +561,7 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char j mobiel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.14 133.5">
+                <svg id="mobiel" class="char j mobiel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.14 133.5">
                     <defs>
                         <style>
                             .cls-1 {
@@ -604,7 +616,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char k mobiel avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.14 133.5">
+                <svg id="mobiel" class="char k mobiel avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 100.14 133.5">
                     <defs>
                         <style>
                             .cls-1 {
@@ -659,7 +672,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char l werk dalx avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.98 127.63">
+                <svg id="werk" class="char l werk dalx avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 112.98 127.63">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -689,7 +703,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char m werk dalx avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.98 127.63">
+                <svg id="werk" class="char m werk dalx avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 112.98 127.63">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
@@ -719,7 +734,8 @@
                         </g>
                     </g>
                 </svg>
-                <svg class="char n werk avondx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.98 127.63">
+                <svg id="werk" class="char n werk avondx" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 112.98 127.63">
                     <g id="Laag_2" data-name="Laag 2">
                         <g id="Laag_1-2" data-name="Laag 1">
                             <path class="cls-1"
