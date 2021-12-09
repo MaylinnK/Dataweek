@@ -16,7 +16,7 @@ body main {
 }
 
 body main h1 {
-    font-size: 26px;
+    font-size: 25px;
     margin: 0;
     line-height: 37px;
     color: #373737;
@@ -24,7 +24,7 @@ body main h1 {
 }
 
 body main h1 span {
-    font-size: 37px;
+    font-size: 34px;
 }
 
 body main img {
@@ -44,8 +44,8 @@ body main>section:nth-of-type(1)>section:nth-of-type(1) {
     flex-direction: column;
     justify-content: center;
     align-self: end;
-    height: 62%;
-    margin: 0 15px;
+    height: 52%;
+    margin: 0 15px 20px;
     border-radius: 20px;
     background-color: #d4bdb0;
     padding: 20px 30px;
@@ -57,7 +57,6 @@ body main>section:nth-of-type(1)>section:nth-of-type(2) {
     padding: 20px;
     border-radius: 15px;
     margin: 20px 60px 0 0;
-    height: 42%;
     display: flex;
     opacity: 0;
     transition: 300ms;
@@ -69,14 +68,14 @@ body main>section:nth-of-type(1)>section:nth-of-type(2) p {
     margin: 0;
     text-align: left;
     width: 90%;
-    font-size: 16.5px;
+    font-size: 14.5px;
     color: white;
     line-height: 24px;
 }
 
 body main section p {
-    width: 80%;
-    font-size: 15px;
+    width: 90%;
+    font-size: 13.5px;
     margin: 5px 0 0;
 }
 
@@ -124,6 +123,7 @@ body form label {
     box-shadow: 4px 3px 4px -1px #000000;
     transition: 200ms;
 }
+
 
 body form label:hover {
     background-color: #c68963;
