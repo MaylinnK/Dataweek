@@ -16,9 +16,9 @@ body main {
 }
 
 body main h1 {
-    font-size: 36px;
+    font-size: 27px;
     margin: 10px 0 0;
-    line-height: 45px;
+    line-height: 37px;
     color: #373737;
     font-family: 'Bebas Neue', cursive;
 }
@@ -44,7 +44,7 @@ body main>section:nth-of-type(1)>section:nth-of-type(1) {
     flex-direction: column;
     justify-content: center;
     align-self: end;
-    height: 60%;
+    height: 62%;
     margin: 0 15px;
     border-radius: 20px;
     background-color: #d4bdb0;
@@ -52,12 +52,12 @@ body main>section:nth-of-type(1)>section:nth-of-type(1) {
 }
 
 body main>section:nth-of-type(1)>section:nth-of-type(2) {
-    width: 17%;
+    width: 20%;
     background-color: #a09082;
     padding: 20px;
     border-radius: 15px;
     margin: 20px 60px 0 0;
-    height: 43%;
+    height: 42%;
     display: flex;
     opacity: 0;
     transition: 300ms;
@@ -69,7 +69,7 @@ body main>section:nth-of-type(1)>section:nth-of-type(2) p {
     margin: 0;
     text-align: left;
     width: 90%;
-    font-size: 17.5px;
+    font-size: 16.5px;
     color: white;
     line-height: 24px;
 }
@@ -110,10 +110,10 @@ body form input {
 }
 
 body form label {
-    height: 50px;
-    width: 160px;
+    height: 45px;
+    width: 150px;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
