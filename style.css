@@ -163,7 +163,7 @@ body form input:checked+label {
 .char {
     width: 7%;
     position: absolute;
-    bottom: 28.2%;
+    bottom: 26.4%;
     opacity: 0.8;
 }
 
