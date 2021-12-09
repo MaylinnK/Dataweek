@@ -5,7 +5,6 @@ body {
 
 body main {
     position: relative;
-    display: flex;
     background-image: url("./afbeeldingen/ochtend.GIF");
     background-size: cover;
     background-position: 50% 74%;
@@ -27,12 +26,19 @@ body main img {
     width: 100%;
 }
 
-body main section {
+body main section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+}
+
+body main section:nth-of-type(1) section {
     flex-basis: 30%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: 28%;
+    height: 84%;
     margin: 17px 15px;
     background-color: #d0baad;
     padding: 10px;
@@ -45,13 +51,15 @@ body main section p {
     text-align: center;
 }
 
-.trein {
-    display: block;
-    position: absolute;
+body main section:nth-of-type(2) {
     width: 100%;
-    bottom: 8.5%;
-    left: 0;
-    height: 54%;
+    height: 70%;
+}
+
+body main section:nth-of-type(2) article {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 main article span {
@@ -73,8 +81,8 @@ body form input {
 }
 
 body form label {
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 160px;
     margin-bottom: 20px;
     font-size: 16px;
     display: flex;
@@ -84,16 +92,178 @@ body form label {
     color: white;
     border-radius: 5px;
     box-shadow: 5px 4px 4px -1px #000000;
-    transition: 200ms
+    transition: 200ms;
 }
 
 body form label:hover {
     background-color: rgb(167, 167, 167);
 }
 
-body form input:checked + label {
+body form input:checked+label {
     background-color: rgb(128, 168, 68);
     margin: 4px -4px 16px 4px;
     box-shadow: none;
     transition: 200ms
+}
+
+
+/* ---------- Trein ---------- */
+
+.trein {
+    display: block;
+    position: absolute;
+    width: 100%;
+    transform: scaleY(0.9);
+    bottom: 7%;
+    left: 0;
+}
+
+.trein .cls-1 {
+    opacity: 0.5;
+}
+
+.trein .cls-2 {
+    fill: #80bcb3;
+}
+
+.trein .cls-3 {
+    fill: #d0baad;
+}
+
+.trein .cls-4 {
+    fill: #736357;
+}
+
+.trein .cls-5 {
+    fill: #534741;
+}
+
+.trein .cls-6 {
+    fill: #998675;
+}
+
+.trein .cls-7 {
+    fill: #736c66;
+}
+
+.trein .cls-8 {
+    fill: #928282;
+}
+
+.trein .cls-9 {
+    fill: #c68660;
+}
+
+
+/* --------------------------- */
+
+
+/* ---------- Personen ---------- */
+
+.char {
+    width: 7%;
+    position: absolute;
+    bottom: 28.2%;
+    opacity: 0.8;
+}
+
+.mobiel {
+    transform: rotate(-4deg);
+}
+
+.werk .cls-1, .werk .cls-2 {
+    fill: #789c7b
+}
+
+.werk .cls-10 {
+    fill: #608566
+}
+
+.werk .cls-8 {
+    fill: #a7c1a8
+}
+
+.werk .cls-3 {
+    fill: #b7bbbc
+}
+
+.werk .cls-4 {
+    fill: #e5c67f
+}
+
+.rust .cls-1 {
+    fill: #90afbf;
+}
+
+.rust .cls-2 {
+    fill: #608bb9;
+}
+
+.rust .cls-3 {
+    fill: #b8d3e4;
+}
+
+.rust .cls-4 {
+    fill: #918d8b;
+}
+
+.rust .cls-5 {
+    fill: #77594f;
+}
+
+.a {
+    left: 6.5%;
+}
+
+.b {
+    left: 18%;
+}
+
+.c {
+    left: 71%;
+}
+
+.d {
+    left: 92.5%;
+}
+
+.e {
+    left: 28%;
+}
+
+.f {
+    left: 46.5%;
+}
+
+.g {
+    left: 2.6%;
+}
+
+.h {
+    left: 13.1%;
+}
+
+.i {
+    left: 67%;
+    transform: rotate(-4deg);
+}
+
+.j {
+    left: 34.8%;
+}
+
+.k {
+    left: 56.1%;
+}
+
+.l {
+    left: 24.6%;
+}
+
+.m {
+    left: 78.3%;
+}
+
+.n {
+    left: 89.1%;
 }
