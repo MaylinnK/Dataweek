@@ -39,6 +39,7 @@ function charToggle(article, chars) {
   article = document.getElementById("article").className;
   for (let i = 0; i < exceptions.length; i++) {
     exceptions[i].id = "praat"
+    exceptions[i].classList.add("praat");
   }
   chars = document.getElementsByClassName("char");
   for (let i = 0; i < chars.length; i++) {
@@ -56,10 +57,10 @@ function charToggle(article, chars) {
       chars[i].classList.add("hidden");
     }
 
-    chars = document.getElementsByClassName("praat dalx");
     for (let i = 0; i < chars.length; i++) {
-      chars[i].classList.add("extraOverige");
-      chars[i].id = "overige"
+      exceptions[i].classList.add("extraOverige");
+      exceptions[i].classList.remove("praat");
+      exceptions[i].id = "overige"
     }
   }
 }
