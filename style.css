@@ -12,7 +12,7 @@ body main {
     height: 100vh;
     width: 100vw;
     justify-content: space-between;
-    transition: 900ms;
+    transition: 700ms;
 }
 
 body main h1 {
@@ -158,19 +158,30 @@ body form input:checked+label {
 /* --------------------------- */
 
 
-/* ---------- Personen ---------- */
+/* ---------------- Personen ---------------- */
 
 .char {
     width: 7%;
     position: absolute;
     bottom: 26.4%;
-    opacity: 0.8;
+    transition: 200ms;
+    opacity: 0.7;
+}
+
+.hidden {
+    display: none;
+    transition: 200ms
+}
+
+.char:hover {
+    opacity: 1
 }
 
 .mobiel {
     transform: rotate(-4deg);
 }
 
+/* ---------- Werk kleur ---------- */
 .werk .cls-1, .werk .cls-2 {
     fill: #789c7b
 }
@@ -191,6 +202,7 @@ body form input:checked+label {
     fill: #e5c67f
 }
 
+/* ---------- Rust kleur ---------- */
 .rust .cls-1 {
     fill: #90afbf;
 }
@@ -211,6 +223,72 @@ body form input:checked+label {
     fill: #77594f;
 }
 
+/* ---------- Praat kleur ---------- */
+
+.praat .cls-1 {
+    fill: #918d8b;
+}
+
+.praat .cls-2 {
+    fill: #bc906c;
+}
+
+.praat .cls-5 {
+    fill: #be6866
+}
+
+.praat .cls-3 {
+    fill: #a55656;
+}
+
+.praat .cls-4 {
+    fill: #914646;
+}
+
+
+/* ---------- Overige kleur ---------- */
+
+.overige .cls-1 {
+    fill: #918d8b;
+}
+
+.overige .cls-2 {
+    fill: #77594f;
+}
+
+.overige .cls-5 {
+    fill: #ffd196
+}
+
+.overige .cls-3 {
+    fill: #ffe2a7;
+}
+
+.overige .cls-4 {
+    fill: #dbae7d;
+}
+
+.extraOverige .cls-1 {
+    fill: #918d8b;
+}
+
+.extraOverige .cls-2 {
+    fill: #77594f;
+}
+
+.extraOverige .cls-5 {
+    fill: #ffd196
+}
+
+.extraOverige .cls-3 {
+    fill: #ffe2a7;
+}
+
+.extraOverige .cls-4 {
+    fill: #dbae7d;
+}
+
+/* ---------- Positionering ---------- */
 .a {
     left: 6.5%;
 }
@@ -220,7 +298,7 @@ body form input:checked+label {
 }
 
 .c {
-    left: 71%;
+    left: 72.5%;
 }
 
 .d {
@@ -245,7 +323,6 @@ body form input:checked+label {
 
 .i {
     left: 67%;
-    transform: rotate(-4deg);
 }
 
 .j {
@@ -266,4 +343,22 @@ body form input:checked+label {
 
 .n {
     left: 89.1%;
+}
+.o {
+    left: 36%;
+}
+.p {
+    left: 44%;
+}
+.q {
+    left: 78%;
+}
+.r {
+    left: 87%;
+}
+.s {
+    left: 55.1%;
+}
+.t {
+    left: 66%;
 }
