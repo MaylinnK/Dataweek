@@ -16,15 +16,15 @@ body main {
 }
 
 body main h1 {
-    font-size: 27px;
-    margin: 10px 0 0;
+    font-size: 26px;
+    margin: 0;
     line-height: 37px;
     color: #373737;
     font-family: 'Bebas Neue', cursive;
 }
 
 body main h1 span {
-    font-size: 39px;
+    font-size: 37px;
 }
 
 body main img {
