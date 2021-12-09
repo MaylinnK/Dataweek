@@ -1,7 +1,7 @@
 function backgroundToggle(time) {
   time = document.querySelector("input:checked").id;
   document.querySelector("main").style.backgroundImage =
-    "url(./afbeeldingen/" + time + ".gif)";
+    "url(./afbeeldingen/" + time + ".GIF)";
     if( time == "ochtend") {
         document.querySelector("p").innerHTML = "11.2% van alle dagreizigers op de trein van Haarlem naar Amsterdam, reist tijdens een uur in de ochtendspitsperiode."
     }

@@ -6,7 +6,7 @@ body {
 body main {
     position: relative;
     display: flex;
-    background-image: url("./afbeeldingen/ochtend.gif");
+    background-image: url("./afbeeldingen/ochtend.GIF");
     background-size: cover;
     background-position: 50% 74%;
     background-repeat: no-repeat;
